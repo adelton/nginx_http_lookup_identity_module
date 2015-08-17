@@ -1,0 +1,1 @@
+pkill nginx ; ./configure --add-module=/mnt/tests/Kerberos --add-module=/mnt/tests/PAM --add-module=/mnt/tests/LookupIdentity --with-debug --prefix=/mnt/tests/nginx-1.8.0/  ; cp /mnt/tests/install/Makefile objs/Makefile ; make ; ./objs/nginx
